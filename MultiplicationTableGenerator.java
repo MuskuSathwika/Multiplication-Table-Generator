@@ -12,9 +12,10 @@ public class MultiplicationTableGenerator {
         for (int j = n; j <= e; j++) {
             System.out.println("table of " + j);
             for (int i = 1; i <= m; i++) {
-                System.out.println(j + " * " + i + "= " + j * i);
+                System.out.printf("%d * %d=%d%n",j,i,j * i );
             }
             System.out.println("Multiplication table completed");
         }
     }
 }
+
